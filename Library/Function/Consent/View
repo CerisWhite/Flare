@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>お客様情報の取扱いについて</title>
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="https://agrmt.channel.or.jp/css/consent/style.css">
+  <link rel="stylesheet" type="text/css" href="https://agrmt.channel.or.jp/groupHeader/css/groupHeader.css">
+</head>
+<body>
+  <div id="loading">
+    Loading...
+  </div>
+  <!-- groupHeader category-02-white start -->
+  <div id="groupHeader" class="p-groupHeader-02" style="display: none">
+    <div class="p-groupHeader__inner">
+      <div class="p-groupHeader__lineElement"></div>
+    </div>
+    <div class="p-groupHeader__groupLogo">
+      <img src="https://agrmt.channel.or.jp/groupHeader/logo/groupLogo-02.svg" alt="Bandai Namco Fun for All into the Future" width="182" class="p-groupHeader__groupLogo--pc">
+      <img src="https://agrmt.channel.or.jp/groupHeader/logo/groupLogo-02-sp.svg" alt="Bandai Namco" width="88" class="p-groupHeader__groupLogo--sp">
+    </div>
+  </div>
+  <!-- groupHeader category-02-white end -->
+  <div id="container" style="display: none" data-is-submitted="false">
+    <div id="consent">
+      <div class="page-title">
+        <h3>お客様情報の取扱いについて</h3>
+      </div>
+      <div class="accordion">
+        <ul class="accordion-list">
+          <li
+              id="accordion-item-583"
+              class="accordion-item"
+              data-term-id="583"
+          >
+            <a
+                class="accordion-title ripple"
+                data-index="0"
+                data-url="https://legal.bandainamcoent.co.jp/privacy/fangage_summary_jp"
+            >
+              <div class="accordion-title-inner">
+                <span class="accordion-title-label">概要</span>
+                <span class="accordion-title-icon"></span>
+              </div>
+            </a>
+            <div class="accordion-content">
+              <div class="accordion-iframe">
+                <iframe id="iframe_0" src="https://legal.bandainamcoent.co.jp/privacy/fangage_summary_jp" frameborder="0" width="100%"></iframe>
+              </div>
+            </div>
+          </li>
+          <li
+              id="accordion-item-584"
+              class="accordion-item"
+              data-term-id="584"
+          >
+            <a
+                class="accordion-title ripple"
+                data-index="1"
+                data-url="https://legal.bandainamcoent.co.jp/privacy/fangage_analysis_jp"
+            >
+              <div class="accordion-title-inner">
+                <span class="accordion-title-label">分析</span>
+                <span class="accordion-title-icon"></span>
+              </div>
+            </a>
+            <div class="accordion-content">
+              <div class="accordion-iframe">
+                <iframe id="iframe_1" src="https://legal.bandainamcoent.co.jp/privacy/fangage_analysis_jp" frameborder="0" width="100%"></iframe>
+              </div>
+            </div>
+          </li>
+          <li
+              id="accordion-item-585"
+              class="accordion-item"
+              data-term-id="585"
+          >
+            <a
+                class="accordion-title ripple"
+                data-index="2"
+                data-url="https://legal.bandainamcoent.co.jp/privacy/fangage_ad_jp"
+            >
+              <div class="accordion-title-inner">
+                <span class="accordion-title-label">広告出稿</span>
+                <span class="accordion-title-icon"></span>
+              </div>
+            </a>
+            <div class="accordion-content">
+              <div class="accordion-iframe">
+                <iframe id="iframe_2" src="https://legal.bandainamcoent.co.jp/privacy/fangage_ad_jp" frameborder="0" width="100%"></iframe>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- .accordion -->
+      <div class="form-accept">
+        <form method="POST" action="https://agrmt.channel.or.jp/api/v1/consent/apply" id="all_not_accept">
+          <input type="hidden" name="term_ids[583]" value="0"/>
+          <input type="hidden" name="term_ids[584]" value="0"/>
+          <input type="hidden" name="term_ids[585]" value="0"/>
+          <input type="hidden" name="hash" value="d7370752c18e6edb393450a974e6c2a554f33c162c792e47e7cb8f66768b7344"/>
+          <input type="hidden" name="user_id" value="b92ddf0cda8f4ace8ec60a6a0e45ba1c"/>
+          <input type="hidden" name="content_title_id" value="44"/>
+          <input type="hidden" name="hash_ids" value="[&quot;583&quot;,&quot;584&quot;,&quot;585&quot;]"/>
+          <input type="hidden" name="skip" value="0"/>
+          <input type="hidden" name="lang" value="ja"/>
+        </form>
+        <form method="POST" action="https://agrmt.channel.or.jp/api/v1/consent/apply" id="all_accept">
+          <input type="hidden" name="term_ids[583]" value="1"/>
+          <input type="hidden" name="term_ids[584]" value="1"/>
+          <input type="hidden" name="term_ids[585]" value="1"/>
+          <input type="hidden" name="hash" value="d7370752c18e6edb393450a974e6c2a554f33c162c792e47e7cb8f66768b7344"/>
+          <input type="hidden" name="user_id" value="b92ddf0cda8f4ace8ec60a6a0e45ba1c"/>
+          <input type="hidden" name="content_title_id" value="44"/>
+          <input type="hidden" name="hash_ids" value="[&quot;583&quot;,&quot;584&quot;,&quot;585&quot;]"/>
+          <input type="hidden" name="skip" value="0"/>
+          <input type="hidden" name="lang" value="ja"/>
+        </form>
+        <form method="POST" action="https://agrmt.channel.or.jp/api/v1/consent/apply" id="skip_accept">
+          <input type="hidden" name="term_ids[583]" value="1"/>
+          <input type="hidden" name="term_ids[584]" value="1"/>
+          <input type="hidden" name="term_ids[585]" value="1"/>
+          <input type="hidden" name="hash" value="d7370752c18e6edb393450a974e6c2a554f33c162c792e47e7cb8f66768b7344"/>
+          <input type="hidden" name="user_id" value="b92ddf0cda8f4ace8ec60a6a0e45ba1c"/>
+          <input type="hidden" name="content_title_id" value="44"/>
+          <input type="hidden" name="hash_ids" value="[&quot;583&quot;,&quot;584&quot;,&quot;585&quot;]"/>
+          <input type="hidden" name="skip" value="1"/>
+          <input type="hidden" name="lang" value="ja"/>
+        </form>
+      </div>
+      <!-- .form-accept -->
+      <div id="consent_buttons">
+        <div class="accept-select">
+          <div class="accept-select_inner">
+            <form id="consent_form" method="POST" action="https://agrmt.channel.or.jp/api/v1/consent/apply">
+              <ul class="check-list">
+                <input class="checkbox" type="hidden" name="term_ids[583]" value="0"/>
+                <input class="checkbox" type="hidden" name="term_ids[584]" value="0"/>
+                <li>
+                  <label>
+                    <input class="checkbox" type="checkbox" id="check584"
+                                name="term_ids[584]" value="1"
+                                                                            data-term-id="584"
+                            />
+                    <div class="checkbox-text">分析</div>
+                  </label>
+                </li>
+                <input class="checkbox" type="hidden" name="term_ids[585]" value="0"/>
+                <li>
+                  <label>
+                    <input class="checkbox" type="checkbox" id="check585"
+                                name="term_ids[585]" value="1"
+                                                                            data-term-id="585"
+                            />
+                    <div class="checkbox-text">広告出稿</div>
+                  </label>
+                </li>
+                <input type="hidden" name="hash" value="d7370752c18e6edb393450a974e6c2a554f33c162c792e47e7cb8f66768b7344"/>
+                <input type="hidden" name="user_id" value="b92ddf0cda8f4ace8ec60a6a0e45ba1c"/>
+                <input type="hidden" name="content_title_id" value="44"/>
+                <input type="hidden" name="hash_ids" value="[&quot;583&quot;,&quot;584&quot;,&quot;585&quot;]"/>
+                <input type="hidden" name="skip" value="0"/>
+                <input type="hidden" name="lang" value="ja"/>
+              </ul>
+            </form>
+            <input id="accept_button" class="btn-sticky bind-btn-submit" type="submit" form="consent_form" name="selected"
+            value="選択項目のみ同意" disabled="disabled"/>
+          </div>
+        </div>
+        <div class="accept_buttons">
+          <input id="all_not_accept_button" class="bind-btn-submit" type="submit" form="all_not_accept"
+          value="すべて不同意">
+          <input id="all_accept_button" class="bind-btn-submit" type="submit" form="all_accept" value="すべて同意">
+        </div>
+        <div class="accept_buttons">
+          <a href="https://s3-ap-northeast-1.amazonaws.com/toco-rays/public/Web/legal_ios/ConsentClose.html?user_id=b92ddf0cda8f4ace8ec60a6a0e45ba1c" id="callback_button" >サービスに戻る</a>
+        </div>
+      </div>
+      <!-- #consent_buttons -->
+    </div>
+    <!-- #consent -->
+  </div>
+  <!-- #container -->
+  <script src="https://agrmt.channel.or.jp/js/app.js"></script>
+  <script src="https://agrmt.channel.or.jp/js/consent/common.js"></script>
+  <script>
+    window.Consent = {};
+    window.Consent.lang = "ja";
+    window.Consent.terms = [{"id":583,"master_term_id":130,"enable_from":"2022-07-20 15:00:00","enable_to":"2032-07-20 15:00:00","url":{"ar":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ar","de":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_de","en":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_en","es":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_es","fr":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_fr","it":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_it","ja":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_jp","ko":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ko","pl":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_po","ru":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ru","th":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_th","ZhCN":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_zh-CN","ptBR":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ptBR","zhTW":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_zh-TW"},"takeover_from_master_term_id":367,"description":null,"status":1,"created_at":"2022-07-21T04:57:34.000000Z","updated_at":"2022-07-21T04:57:34.000000Z","blank_type":0,"consent_type":0,"master_term":{"id":130,"master_content_title_id":44,"consent_type":0,"description":null,"status":1,"created_at":"2022-02-10T08:09:42.000000Z","updated_at":"2022-02-10T08:09:42.000000Z","content_title_name":"\u30c6\u30a4\u30eb\u30ba\u30aa\u30d6\u30b6\u30ec\u30a4\u30ba","url":{"ar":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ar","de":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_de","en":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_en","es":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_es","fr":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_fr","it":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_it","ja":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_jp","ko":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ko","pl":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_po","ru":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ru","th":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_th","ptBR":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_ptBR","zhTW":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_summary_zh-TW"},"content_title":{"id":44,"master_content_ip_id":6,"name":"\u30c6\u30a4\u30eb\u30ba\u30aa\u30d6\u30b6\u30ec\u30a4\u30ba","created_at":"2022-02-10T08:01:56.000000Z","updated_at":"2022-02-10T08:01:56.000000Z","content_ip":{"id":6,"name":"\u30c6\u30a4\u30eb\u30ba","created_at":"2021-08-27T04:20:47.000000Z","updated_at":"2021-08-27T04:20:47.000000Z"}}}},{"id":584,"master_term_id":131,"enable_from":"2022-07-20 15:00:00","enable_to":"2032-07-20 15:00:00","url":{"ar":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ar","de":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_de","en":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_en","es":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_es","fr":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_fr","it":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_it","ja":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_analysis_jp","ko":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ko","pl":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_po","ru":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ru","th":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_th","ZhCN":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_zh-CN","ptBR":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ptBR","zhTW":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_zh-TW"},"takeover_from_master_term_id":368,"description":null,"status":1,"created_at":"2022-07-21T04:57:50.000000Z","updated_at":"2022-07-21T04:57:50.000000Z","blank_type":0,"consent_type":1,"master_term":{"id":131,"master_content_title_id":44,"consent_type":1,"description":null,"status":1,"created_at":"2022-02-10T08:09:52.000000Z","updated_at":"2022-02-10T08:09:52.000000Z","content_title_name":"\u30c6\u30a4\u30eb\u30ba\u30aa\u30d6\u30b6\u30ec\u30a4\u30ba","url":{"ar":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ar","de":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_de","en":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_en","es":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_es","fr":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_fr","it":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_it","ja":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_analysis_jp","ko":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ko","pl":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_po","ru":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ru","th":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_th","ptBR":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_ptBR","zhTW":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_an_zh-TW"},"content_title":{"id":44,"master_content_ip_id":6,"name":"\u30c6\u30a4\u30eb\u30ba\u30aa\u30d6\u30b6\u30ec\u30a4\u30ba","created_at":"2022-02-10T08:01:56.000000Z","updated_at":"2022-02-10T08:01:56.000000Z","content_ip":{"id":6,"name":"\u30c6\u30a4\u30eb\u30ba","created_at":"2021-08-27T04:20:47.000000Z","updated_at":"2021-08-27T04:20:47.000000Z"}}}},{"id":585,"master_term_id":132,"enable_from":"2022-07-20 15:00:00","enable_to":"2032-07-20 15:00:00","url":{"ar":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ar","de":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_de","en":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_en","es":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_es","fr":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_fr","it":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_it","ja":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_jp","ko":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ko","pl":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_po","ru":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ru","th":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_th","ZhCN":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_zh-CN","ptBR":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ptBR","zhTW":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_zh-TW"},"takeover_from_master_term_id":369,"description":null,"status":1,"created_at":"2022-07-21T04:58:07.000000Z","updated_at":"2022-07-21T04:58:07.000000Z","blank_type":0,"consent_type":2,"master_term":{"id":132,"master_content_title_id":44,"consent_type":2,"description":null,"status":1,"created_at":"2022-02-10T08:10:02.000000Z","updated_at":"2022-02-10T08:10:02.000000Z","content_title_name":"\u30c6\u30a4\u30eb\u30ba\u30aa\u30d6\u30b6\u30ec\u30a4\u30ba","url":{"ar":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ar","de":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_de","en":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_en","es":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_es","fr":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_fr","it":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_it","ja":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_jp","ko":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ko","pl":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_po","ru":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ru","th":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_th","ptBR":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_ptBR","zhTW":"https:\/\/legal.bandainamcoent.co.jp\/privacy\/fangage_ad_zh-TW"},"content_title":{"id":44,"master_content_ip_id":6,"name":"\u30c6\u30a4\u30eb\u30ba\u30aa\u30d6\u30b6\u30ec\u30a4\u30ba","created_at":"2022-02-10T08:01:56.000000Z","updated_at":"2022-02-10T08:01:56.000000Z","content_ip":{"id":6,"name":"\u30c6\u30a4\u30eb\u30ba","created_at":"2021-08-27T04:20:47.000000Z","updated_at":"2021-08-27T04:20:47.000000Z"}}}}];
+    window.Consent.url = `https://agrmt.channel.or.jp/api/v1/consent/apply`
+    window.Consent.content_title_id = "44";
+    window.Consent.environment = "production";
+  </script>
+  <script src="https://agrmt.channel.or.jp/js/consent/check_status.js"></script>
+</body>
+</html>

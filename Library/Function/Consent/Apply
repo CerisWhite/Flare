@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title></title>
+  <meta charset="utf-8" />
+  <script type="text/javascript">
+    function proc() {
+      window.location.href = "uniwebview://Consent/Close" + window.location.search;
+    }
+  </script>
+</head>
+<body onload="proc();"></body>
+</html>
