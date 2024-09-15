@@ -602,7 +602,7 @@ Flare.post("/game_server/api/users/rays_data_order2", async (req, res, next) => 
 		"battle_chara_stamps_stamp_list": UserIndex['Index']['battle_chara_stamps_stamp_list'],
 		"bgms_list": UserIndex['Index']['bgms_list'],
 		"bridges_index": UserIndex['Index']['bridges_index'],
-		"charas_list": UserIndex['Index']['bridges_index'],
+		"charas_list": UserIndex['Index']['charas_list'],
 		"galleries_illustration_list": UserIndex['Index']['galleries_illustration_list'],
 		"magical_mirrors_list": UserIndex['Index']['magical_mirrors_list'],
 		"fairys_dresses_list": UserIndex['Index']['fairys_dresses_list'],
@@ -617,7 +617,7 @@ Flare.post("/game_server/api/users/rays_data_order2", async (req, res, next) => 
 		"weapons_list": UserIndex['Index']['weapons_list'],
 		"weapons_mirrage_weapon_surface_list": UserIndex['Index']['weapons_mirrage_weapon_surface_list'],
 		"recollection_series_chara_equip_list": UserIndex['Index']['recollection_series_chara_equip_list'],
-		"user_log_data": UserIndex['Index']['recollection_series_chara_equip_list']
+		"user_log_data": UserIndex['Index']['user_log_data']
 	}
 	next();
 });
